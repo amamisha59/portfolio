@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7f1aa5eee.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div id="header">
+
+
+
+<div class="container">
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="smenu">
+            <li><a href="#" onclick="toggleDayNight()"><img src="images/dn.png" id="light"></a></li>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">My-work</a></li>
+        <li><a href="#contact">Contact</a></li>
+       
+        <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+       
+        </ul>
+        <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        
+        <h1>Hi,I'm <span>Amisha Sinha</span><br>from India</h1>
+        <p>Developer,Programmer,Canva creator</p>
+    </div>
+</div>
+<!-----about----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="images/dev.jpg">
+            </div>
+            <div class="about-col-2">
+<h1 class="sub-title"> About Me</h1>
+<p>
+    I am a 2nd yead student of CSIT brach in ITER SOA college.I have completed my schooling till class 12 from DAV cantt Gaya.I am currently focusing on improving my web development skills and refining my programming.I am wishing to learn, practice and solve different problems.
+</p>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+   
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Frontend Development</span><br><ul class="use"><li>scroll down</li><li> HTML</li><li>CSS</li><li>Bootstrap</li></ul></li>
+      
+        <li><span>Backend</span><br><ul class="use"><li>scroll down</li><li>JavaScript</li><li>JAVA</li><li>python</li></ul></li>
+
+        <li><span>Problem Solving</span><ul class="use"><li>JAVA</li></ul></li>
+        <li><span>UI</span><ul class="use"><li>figma</li></ul></li>
+        <li><span>canva creator</span></li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2018</span><br>10th percentage-93%</li>
+        <li><span>2020</span><br>12th percentage-93.2%</li>
+        <li><span>Nov,2021-25</span><br>Btech in COMPUTER SCIENCE AND INFORMATION TECHNOLOGY<br>1st year cgpa-9.7 </li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----SERVICES---->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+          
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX design</h2>
+           
+        </div>
+        <div>
+            <i class="fa-solid fa-cannabis"></i>
+            <h2>canva creator</h2>
+           
+        </div>
+        </div>
+        
+    </div>
+</div>
+<!-----portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Codex website UI design</h3>
+                    <p>this is the UI design of codex club website</p>
+                    <a href="https://www.figma.com/file/xhsokSM3jFe4U7W3ARebV6/EXPLORE-YOUR-UI(2141019492)?node-id=0%3A1&t=qfn2zkAVfialUL41-1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Codex website UI design</h3>
+                    <p>this is the UI design of codex club website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Codex website UI design</h3>
+                    <p>this is the UI design of codex club website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Codex website UI design</h3>
+                    <p>this is the UI design of codex club website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+       
+        </div>
+        
+    </div>
+</div>
+<!-----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> amishasinha59@gmail.com</p>
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> Copyright 2023-Amisha.</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("smenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+</script>
+<script>
+ function toggleDayNight() {
+  var body = document.getElementById('body');
+  var lightIcon = document.getElementById('light');
+
+  if (body.classList.contains('night')) {
+    // If body has night class, remove it and set day mode
+    body.classList.remove('night');
+    lightIcon.src = 'images/dn.png'; // Update the image source for day mode
+    
+  } else {
+    // If body doesn't have night class, add it and set night mode
+    body.classList.add('night');
+    lightIcon.src = 'images/dn.png'; // Update the image source for night mode
+  }
+}
+    
+</script>
+</body>
+</html>
